@@ -1,0 +1,13 @@
+<Solution>
+  <Project Path="Exercicio02/Exercicio02.csproj" />
+  <Project Path="Exercicio03/Exercicio03.csproj" />
+  <Project Path="Exercicio04/Exercicio04.csproj" Id="5820f35a-6895-4524-a72d-a5529caa267f" />
+  <Project Path="Exercicio05/Exercicio05.csproj" Id="0c132ebb-4772-486f-863a-d3ea1d20f30f" />
+  <Project Path="Exercicio06/Exercicio06.csproj" Id="e92472ff-c4e6-4be6-b571-22d11f8acd07" />
+  <Project Path="Exercicio07/Exercicio07.csproj" Id="394a5dbd-80ca-40c4-a9cf-41e269877a47" />
+  <Project Path="Exercicio08/Exercicio08.csproj" Id="13a51a77-ae9d-4904-92df-f6983b695435" />
+  <Project Path="Exercicio10/Exercicio10.csproj" Id="9a6601ed-93b5-4f82-9d25-fbe18f3f9e2e" />
+  <Project Path="Exercicio11/Exercicio11.csproj" Id="52889f1d-4ac6-4a4c-8313-a984106ff373" />
+  <Project Path="Exercicio12/Exercicio12.csproj" Id="46f9ee13-e6f6-4309-a643-8c4f87ef4b89" />
+  <Project Path="Gabriel_Fiorini_DR4_TP1/Exercicio01.csproj" />
+</Solution>
