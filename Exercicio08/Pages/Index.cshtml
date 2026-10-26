@@ -1,0 +1,35 @@
+﻿@page
+@using Exercicio08.Models
+@model IndexModel
+@{
+    ViewData["Title"] = "Exercicio 08";
+    List<Produto> produtos = new List<Produto>();
+
+    Produto p1 = new Produto();
+    p1.nome = "Chocolate";
+    p1.preco = 10.99;
+
+    Produto p2 = new Produto();
+    p2.nome = "Cereal";
+    p2.preco = 17.99;
+
+    Produto p3 = new Produto();
+    p3.nome = "Teclado";
+    p3.preco = 170.99;
+
+    produtos.Add(p1);
+    produtos.Add(p2);
+    produtos.Add(p3);
+
+}
+
+<div class="text-center">
+    <h1 class="display-4" size="21">LISTA DE PRODUTOS</h1>
+    @{
+        for (int i = 0; i < produtos.Count; i++){
+            <p>Produto: @produtos[i].nome</p>
+            <p>Preço: R$ @produtos[i].preco</p>
+        }
+    }
+    
+</div>
