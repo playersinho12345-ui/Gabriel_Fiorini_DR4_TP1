@@ -1,0 +1,34 @@
+﻿@page "/"
+@model Exercicio10.Pages.AddProductModel
+
+<h1>Cadastrar Produto</h1>
+
+<div class="col-4">
+    <form method="post">
+
+        <div class="mb-3">
+            <label asp-for="nome">Nome:</label>
+            <input asp-for="nome" class="form-control" />
+            <span asp-validation-for="nome" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="preco">Preço:</label>
+            <input asp-for="preco" type="number" step="0.01"
+                   class="form-control" />
+            <span asp-validation-for="preco" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">
+            Cadastrar
+        </button>
+
+    </form>
+</div>
+
+@if (Model.ExibirResultado)
+{
+    <h2>Produto cadastrado</h2>
+    <p>Nome: @Model.nome</p>
+    <p>Preço: @Model.preco</p>
+}
